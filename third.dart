@@ -12,7 +12,7 @@ Map<String, dynamic> listOperations(List<int> num){
 
   return {
     'sum' : sum,
-    'large' : largest,
+    'large' : large,
     'reversed' : num.reversed
   };
 }
