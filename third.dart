@@ -12,7 +12,7 @@ Map<String, dynamic> listOperations(List<int> num){
 
   return {
     'sum' : sum,
-    'large' : large,
+    'large' : largest,
     'reversed' : num.reversed
   };
 }
@@ -21,6 +21,6 @@ void main(){
   List<int> numbers = [1, 5, 8, 12, 7, 6, 10, 3];
   Map<String, dynamic> results = listOperations(numbers);
   print("Sum of even numbers: ${results['sum']}");
-  print("Largest odd number: ${results['largest']}");
+  print("Largest odd number: ${results['large']}");
   print("Reversed list: ${results['reversed']}");
 }
